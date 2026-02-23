@@ -1,1 +1,6 @@
-flaskjoblibscikit-learnpandasgunicorn
+flask
+joblib
+scikit-learn
+pandas
+gunicorn
+
