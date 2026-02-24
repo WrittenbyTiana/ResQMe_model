@@ -80,9 +80,9 @@ def predict():
     elif "broken" in message or "cannot move" in message or "leg pain" in message or "arm pain" in message:
          first_aid = [
   "Do not move the injured limb."
-  "Support the limb using cloth or clothing",
+  "Support the limb using cloth or clothing."
   "Keep the victim still."
-  "Do not straighten the limb",
+  "Do not straighten the limb."
   "Wait for help."
     ]
 
@@ -92,7 +92,7 @@ def predict():
   "Help the victim sit or lie safely."
   "Keep the victim calm and still."
   "Check for bleeding or fractures."
-  "Avoid unnecessary movement",
+  "Avoid unnecessary movement."
   "Wait for help."
      ]
 
@@ -135,6 +135,7 @@ if __name__ == "__main__":
  
 
 ## STEP 2: Put Your Files on GitHub  Render deploys from GitHub, so she needs to upload her project there.  1. Go to [github.com](https://github.com) and create a free account2. Click the **"+"** button at the top right → **"New repository"** 3. Give it a name like `resqmission-model`4. Set it to **Public**, click **Create repository** 5. Follow the instructions GitHub shows to upload your files (or use GitHub Desktop if she's not comfortable with terminal)  ---  ## STEP 3: Create a Render Account  1. Go to [render.com](https://render.com) 2. Click **"Get Started for Free"** 3. Sign up using her **GitHub account** — this connects the two together ---  ## STEP 4: Create a New Web Service on Render  1. Once logged in, click **"New +"** at the top2. Select **"Web Service"** 3. Render will show her GitHub repositories — select `resqmission-model`4. Click **"Connect"**  ---  ## STEP 5: Configure the Service  Render will ask her to fill in some settings:  | Field | What to type | |---|---| | **Name** | `resqmission-model` (or anything she likes) | | **Region** | Choose the closest to her location | | **Branch** | `main` | | **Runtime** | `Python 3` | | **Build Command** | `pip install -r requirements.txt` | | **Start Command** | `gunicorn app:
+
 
 
 
